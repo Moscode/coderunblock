@@ -3,16 +3,20 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Nav from '../components/Nav'
 import Header from '../components/Header'
+import Metrics from '../components/Metrics';
 
 
 export default function LandingPage() {
 
   return (
     <>
-      <CssBaseline maxWidth={false}/>
-        <Box sx={{ bgcolor: '#cfe8fc', height: '2000', paddingX: '4%'}}>
+      <CssBaseline />
+        <Box sx={{ bgcolor: '#cfe8fc', paddingX: '4%'}}>
           <Nav />
           <Header />
+        </Box>
+        <Box sx={{bgcolor: '#fff', paddingX: '6%'}}>
+          <Metrics />
         </Box>
     </>
   )

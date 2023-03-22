@@ -1,18 +1,23 @@
-import { Grid } from '@mui/material'
+import { Button, Grid, Link } from '@mui/material'
 import { Typography } from '@mui/material'
 import { Image } from 'mui-image'
 import Hero from '../assets/pairprogramming1.jpg'
+import JoinInputBox from './JoinInputBox'
 
 const Header = () => {
   return (
-    <Grid container alignItems='center' justifyContent='between' pt='40px' pb='80px'>
-        <Grid item xs={0} md={6}>
+    <Grid container justifyContent='between' pt='40px' pb='80px'>
+        <Grid container xs={0} md={6} style={{padding:'60px 0px'}}>
             <Typography variant='h3'>
                 Learn New Concept and Debug Your Code with Expert
             </Typography>
-            <Typography>
+            <Typography width='80%'>
                 Experienced developers shared their stacks and weekly availability with you and you can quickly claim the spot
             </Typography>
+            <Grid container style={{backgroundColor: '#fff', borderRadius: '0.5rem 0.5rem 0.5rem 0.5rem', width:'80%'}}>
+                <JoinInputBox />
+            </Grid>
+            <Typography sx={{marginTop: '10px'}}>Already have an account? <Link color='inherit' variant='inherit' href='#' underline='hover'>Log In now</Link></Typography>
         </Grid>
         <Grid item xs={0} md={6}>
             <Image 
@@ -24,6 +29,7 @@ const Header = () => {
             showLoading={true}
             errorIcon={false}
             bgColor='inherit'
+            style={{borderRadius:"4px 10px 10px 4px"}}
             />
         </Grid>
     </Grid>
