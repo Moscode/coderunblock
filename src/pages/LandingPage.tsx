@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Nav from '../components/Nav'
 import Header from '../components/Header'
 import Metrics from '../components/Metrics';
+import TopDev from '../components/TopDev';
 
 
 export default function LandingPage() {
@@ -17,6 +18,9 @@ export default function LandingPage() {
         </Box>
         <Box sx={{bgcolor: '#fff', paddingX: '6%'}}>
           <Metrics />
+        </Box>
+         <Box sx={{ bgcolor: '#cfe8fc', paddingX: '4%', marginBottom:'4%'}}>
+          <TopDev />
         </Box>
     </>
   )
