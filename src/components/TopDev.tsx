@@ -10,7 +10,7 @@ import { Alert } from '@mui/material'
 const TopDev = () => {
   return (
     <div>
-      <Typography variant='h3' sx={{textAlign: 'center', marginTop: '2.5rem', marginBottom: '1.25rem'}}>Top 10 Contributors For The Week</Typography>
+      <Typography variant='h3' sx={{textAlign: 'center', paddingTop: '2.5rem', marginBottom: '1.25rem'}}>Top 10 Contributors For The Week</Typography>
       <Typography sx={{width:'60%', margin:'0 auto', textAlign:'center', marginBottom: '1.25rem'}}>These are the top developers for this week. They are creating time to help upskill other developers across the globe by sharing their knowledge through explaining difficult concepts to helping with code reviews, and fixing bugs in code.</Typography>
       <Grid container xs={0} md={12} sx={{gap: '2rem', marginLeft:'2rem'}}>
         <Grid item xs={0} md={3}>
