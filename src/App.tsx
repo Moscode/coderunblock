@@ -1,11 +1,13 @@
+import { ThemeProvider } from '@mui/material'
 import LandingPage from './pages/LandingPage'
+import { theme } from './Theme'
 
 function App() {
 
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <LandingPage />
-    </div>
+    </ThemeProvider>
   )
 }
 

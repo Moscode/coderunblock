@@ -10,10 +10,16 @@ const Review = () => {
         <Grid container xs={0} md={12} justifyContent='space-evenly' marginBottom='5rem'>
         <Grid item xs={0} md={3.5}>
             <Paper sx={{boxShadow: 1,"&:hover": {boxShadow: 8}, padding: '1rem 2rem', height: '100%', alignItems:'center'}} variant='outlined'>
-                <Typography variant='h1' sx={{color:'blue'}}>``</Typography>
+                <Typography variant='h1' sx={{color:'#2b59ff'}}>``</Typography>
                 <div style={{height:'100%'}}>
-                    <img src={Schedule} alt="schedule" style={{width: '30%', backgroundColor:'orange', borderRadius:'10px'}} />
-                    <Typography>
+                    <div style={{display: 'flex', columnGap:'1rem'}}>
+                        <img src='https://randomuser.me/api/portraits/women/48.jpg' alt="schedule" style={{width: '30%', borderRadius:'10px'}} />
+                        <div>
+                        <Typography sx={{fontWeight:'bold'}}>Daniel Daniel</Typography>
+                        <Typography sx={{color:'#bcc0c9'}}>Learning Node.JS and Express.JS</Typography>
+                        </div>
+                    </div>
+                    <Typography sx={{color:'#898b8f'}}>
                         Claimed Available Schedule by Experienced Developer using your Stack
                     </Typography>
                 </div>
@@ -21,10 +27,16 @@ const Review = () => {
         </Grid>
         <Grid item xs={0} md={3.5}>
             <Paper sx={{boxShadow: 1,"&:hover": {boxShadow: 8}, padding: '1rem 2rem', height: '100%', alignItems:'center'}} variant='outlined'>
-                <Typography variant='h1' sx={{color:'blue'}}>``</Typography>
+                <Typography variant='h1' sx={{color:'#2b59ff'}}>``</Typography>
                 <div style={{height:'100%'}}>
-                    <img src={Schedule} alt="schedule" style={{width: '30%', backgroundColor:'orange', borderRadius:'10px'}} />
-                    <Typography>
+                    <div style={{display: 'flex', columnGap:'1rem'}}>
+                        <img src='https://randomuser.me/api/portraits/men/75.jpg' alt="schedule" style={{width: '30%', borderRadius:'10px'}} />
+                        <div>
+                        <Typography sx={{fontWeight:'bold'}}>Daniel Daniel</Typography>
+                        <Typography sx={{color:'#bcc0c9'}}>Learning Node.JS and Express.JS</Typography>
+                        </div>
+                    </div>
+                    <Typography sx={{color:'#898b8f'}}>
                         Claimed Available Schedule by Experienced Developer using your Stack
                     </Typography>
                 </div>
@@ -32,10 +44,16 @@ const Review = () => {
         </Grid>
         <Grid item xs={0} md={3.5}>
             <Paper sx={{boxShadow: 1,"&:hover": {boxShadow: 8}, padding: '1rem 2rem', height: '100%', alignItems:'center'}} variant='outlined'>
-                <Typography variant='h1' sx={{color:'blue'}}>``</Typography>
+                <Typography variant='h1' sx={{color:'#2b59ff'}}>``</Typography>
                 <div style={{height:'100%'}}>
-                    <img src={Schedule} alt="schedule" style={{width: '30%', backgroundColor:'orange', borderRadius:'10px'}} />
-                    <Typography>
+                    <div style={{display: 'flex', columnGap:'1rem'}}>
+                        <img src='https://randomuser.me/api/portraits/men/40.jpg' alt="schedule" style={{width: '30%', borderRadius:'10px'}} />
+                        <div>
+                        <Typography sx={{fontWeight:'bold'}}>Daniel Daniel</Typography>
+                        <Typography sx={{color:'#bcc0c9'}}>Learning Node.JS and Express.JS</Typography>
+                        </div>
+                    </div>
+                    <Typography sx={{color:'#898b8f'}}>
                         Claimed Available Schedule by Experienced Developer using your Stack
                     </Typography>
                 </div>

@@ -10,8 +10,8 @@ import { Alert } from '@mui/material'
 const TopDev = () => {
   return (
     <div>
-      <Typography variant='h3' sx={{textAlign: 'center', paddingTop: '2.5rem', marginBottom: '1.25rem'}}>Top 10 Contributors For The Week</Typography>
-      <Typography sx={{width:'60%', margin:'0 auto', textAlign:'center', marginBottom: '1.25rem'}}>These are the top developers for this week. They are creating time to help upskill other developers across the globe by sharing their knowledge through explaining difficult concepts to helping with code reviews, and fixing bugs in code.</Typography>
+      <Typography variant='h4' sx={{textAlign: 'center', paddingTop: '2.5rem', marginBottom: '1.25rem', fontWeight:'bold', color:'#080811'}}>Top 10 Contributors For The Week</Typography>
+      <Typography sx={{width:'60%', margin:'0 auto', textAlign:'center', marginBottom: '1.25rem', color: '#72777e'}}>These are the top developers for this week. They are creating time to help upskill other developers across the globe by sharing their knowledge through explaining difficult concepts to helping with code reviews, and fixing bugs in code.</Typography>
       <Grid container xs={0} md={12} sx={{gap: '2rem', marginLeft:'2rem'}}>
         <Grid item xs={0} md={3}>
           <Card sx={{ maxWidth: 345, paddingTop:'1rem'}}>
@@ -19,7 +19,7 @@ const TopDev = () => {
             <CardMedia
               component="img"
               height="140"
-              image="https://randomuser.me/api/portraits/men/40.jpg"
+              image="https://randomuser.me/api/portraits/men/50.jpg"
               alt="green iguana"
               sx={{width:'50%', marginX:'auto', borderRadius:'50%'}}
             />
@@ -58,7 +58,7 @@ const TopDev = () => {
             </Grid>
           </Grid>
           <CardActions>
-            <Button variant='contained' sx={{color:"white", bgcolor:'blue', marginX:'auto'}}>
+            <Button variant='contained' sx={{color:"white", bgcolor:'primary', marginX:'auto'}}>
               View Schedule
             </Button>
           </CardActions>
@@ -70,7 +70,7 @@ const TopDev = () => {
             <CardMedia
               component="img"
               height="140"
-              image="https://randomuser.me/api/portraits/men/40.jpg"
+              image="https://randomuser.me/api/portraits/women/40.jpg"
               alt="green iguana"
               sx={{width:'50%', marginX:'auto', borderRadius:'50%'}}
             />
@@ -109,7 +109,7 @@ const TopDev = () => {
             </Grid>
           </Grid>
           <CardActions>
-            <Button variant='contained' sx={{color:"white", bgcolor:'blue', marginX:'auto'}}>
+            <Button variant='contained' sx={{color:"white", bgcolor:'primary', marginX:'auto'}}>
               View Schedule
             </Button>
           </CardActions>
@@ -121,7 +121,7 @@ const TopDev = () => {
             <CardMedia
               component="img"
               height="140"
-              image="https://randomuser.me/api/portraits/men/40.jpg"
+              image="https://randomuser.me/api/portraits/men/46.jpg"
               alt="green iguana"
               sx={{width:'50%', marginX:'auto', borderRadius:'50%'}}
             />
@@ -160,7 +160,7 @@ const TopDev = () => {
             </Grid>
           </Grid>
           <CardActions>
-            <Button variant='contained' sx={{color:"white", bgcolor:'blue', marginX:'auto'}}>
+            <Button variant='contained' sx={{color:"white", bgcolor:'primary', marginX:'auto'}}>
               View Schedule
             </Button>
           </CardActions>
@@ -172,7 +172,7 @@ const TopDev = () => {
             <CardMedia
               component="img"
               height="140"
-              image="https://randomuser.me/api/portraits/men/40.jpg"
+              image="https://randomuser.me/api/portraits/women/67.jpg"
               alt="green iguana"
               sx={{width:'50%', marginX:'auto', borderRadius:'50%'}}
             />
@@ -211,7 +211,7 @@ const TopDev = () => {
             </Grid>
           </Grid>
           <CardActions>
-            <Button variant='contained' sx={{color:"white", bgcolor:'blue', marginX:'auto'}}>
+            <Button variant='contained' sx={{color:"white", bgcolor:'primary', marginX:'auto'}}>
               View Schedule
             </Button>
           </CardActions>
