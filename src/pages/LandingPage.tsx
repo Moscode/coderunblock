@@ -22,7 +22,7 @@ export default function LandingPage() {
         <Box sx={{bgcolor: '#fff', paddingX: '6%'}}>
           <Features />
         </Box>
-         <Box sx={{ bgcolor: '#f8fafc', paddingX: '4%', marginBottom:'4%'}}>
+         <Box sx={{ bgcolor: '#f8fafc', paddingX: '4%', marginBottom:'4%',  paddingBottom:'2.5rem' }}>
           <TopDev />
         </Box>
         <Box sx={{bgcolor: '#fff', paddingX: '6%'}}>

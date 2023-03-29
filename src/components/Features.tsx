@@ -13,8 +13,8 @@ const Features = () => {
     }, [])
   return (
     <>
-    <Typography variant='h4' sx={{textAlign: 'center', marginTop: '2.5rem', marginBottom: '1.25rem', fontWeight:'bold', color:'#080811', paddingY:'1.25rem'}}>Enjoy Our Amazing Features</Typography>
-    <Grid container xs={0} md={12} justifyContent='space-evenly' marginBottom='5rem' data-aos='zoom-in'>
+    <Typography variant='h4' sx={{textAlign: 'center', marginTop: '2.5rem', marginBottom: '2.5rem', fontWeight:'bold', color:'#080811'}}>Enjoy Our Amazing Features</Typography>
+    <Grid container xs={0} md={12} justifyContent='space-evenly' marginBottom='1.25rem' data-aos='zoom-in'>
         <Grid item xs={0} md={2.5}>
             <Paper sx={{boxShadow: 1,"&:hover": {boxShadow: 8}, padding: '3rem 2rem', height: '100%', display: 'flex', alignItems:'center'}} variant='outlined'>
                 <div style={{height:'100%'}}>

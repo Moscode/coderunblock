@@ -12,7 +12,7 @@ const TopDev = () => {
     <div>
       <Typography variant='h4' sx={{textAlign: 'center', paddingTop: '2.5rem', marginBottom: '1.25rem', fontWeight:'bold', color:'#080811'}}>Top 3 Contributors For The Week</Typography>
       <Typography sx={{width:'60%', margin:'0 auto', textAlign:'center', marginBottom: '1.25rem', color: '#72777e'}}>These are the top developers for this week. They are creating time to help upskill other developers across the globe. Sharing their knowledge by explaining difficult concepts and also helping with code reviews, and fixing of bugs in codebase.</Typography>
-      <Grid container xs={0} md={12} sx={{gap: '2rem', marginLeft:'2rem'}}>
+      <Grid container xs={0} md={12} sx={{display:'flex', justifyContent:'center', gap: '2rem'}}>
         <Grid item xs={0} md={3}>
           <Card sx={{ paddingTop:'1rem' }}>
           <CardActionArea>

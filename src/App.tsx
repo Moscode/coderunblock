@@ -1,13 +1,16 @@
 import { ThemeProvider } from '@mui/material'
+import { AuthUserProvider } from './firebase/auth'
 import LandingPage from './pages/LandingPage'
 import { theme } from './Theme'
 
 function App() {
 
   return (
-    <ThemeProvider theme={theme}>
-      <LandingPage />
-    </ThemeProvider>
+    <AuthUserProvider>
+      <ThemeProvider theme={theme}>
+        <LandingPage />
+      </ThemeProvider>
+    </AuthUserProvider>
   )
 }
 
