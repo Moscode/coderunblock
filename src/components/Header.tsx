@@ -7,7 +7,7 @@ import JoinInputBox from './JoinInputBox'
 const Header = () => {
   return (
     <Grid container justifyContent='between' color='primary' pt='40px' pb='80px'>
-        <Grid container xs={0} md={6} style={{padding:'60px 0px'}}>
+        <Grid container xs={0} md={6} style={{padding:'30px 0px'}}>
             <Typography variant='h3' sx={{color:'#080811', fontWeight:'bold'}}>
                 Learn New Concept and Debug Your Code with Expert
             </Typography>
@@ -21,7 +21,7 @@ const Header = () => {
         </Grid>
         <Grid item xs={0} md={6}>
             <Image 
-            height="500px" 
+            height="30rem" 
             src={Hero} 
             alt='hero'
             duration={300}
