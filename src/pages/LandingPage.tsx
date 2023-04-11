@@ -9,26 +9,41 @@ import Review from '../components/Review';
 import Footer from '../components/Footer'
 import Features from '../components/Features';
 
+import { useRef } from 'react'
+
+export const onScrollSection =(scrollSection: any)=>{
+  window.scrollTo(
+    {
+      top: scrollSection.current.offsetTop,
+      behavior: "smooth"
+    }
+  )
+}
 
 export default function LandingPage() {
+  const headerRef = useRef('')
+  const featureRef = useRef('')
+  const topdevRef = useRef('')
+  const reviewRef = useRef('')
+  const footerRef = useRef('')
 
   return (
     <>
       <CssBaseline />
-        <Box sx={{ bgcolor: '#d1edf5', paddingX: '4%'}}>
+        <Box ref={headerRef} sx={{ bgcolor: '#d1edf5', paddingX: '4%'}}>
           <Nav />
           <Header />
         </Box>
-        <Box sx={{bgcolor: '#fff', paddingX: '6%'}}>
+        <Box ref={featureRef} sx={{bgcolor: '#fff', paddingX: '6%'}}>
           <Features />
         </Box>
-         <Box sx={{ bgcolor: '#f8fafc', paddingX: '4%', marginBottom:'4%',  paddingBottom:'2.5rem' }}>
+         <Box ref={topdevRef} sx={{ bgcolor: '#f8fafc', paddingX: '4%', marginBottom:'4%',  paddingBottom:'2.5rem' }}>
           <TopDev />
         </Box>
-        <Box sx={{bgcolor: '#fff', paddingX: '6%'}}>
+        <Box ref={reviewRef} sx={{bgcolor: '#fff', paddingX: '6%'}}>
           <Review />
         </Box>
-        <Box sx={{bgcolor: '#18181b', paddingX: '6%'}}>
+        <Box ref={footerRef} sx={{bgcolor: '#18181b', paddingX: '6%'}}>
           <Footer />
         </Box>
     </>

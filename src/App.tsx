@@ -3,8 +3,13 @@ import { AuthUserProvider } from './firebase/auth'
 import LandingPage from './pages/LandingPage'
 import { theme } from './Theme'
 
-function App() {
+import {
+  createBrowserRouter,
+} from 'react-router-dom'
+import SignupPage from './pages/SignupPage'
 
+
+function App() {
   return (
     <AuthUserProvider>
       <ThemeProvider theme={theme}>
@@ -14,4 +19,16 @@ function App() {
   )
 }
 
-export default App
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element: <App />
+  },
+  {
+    path:'signup',
+    element: <SignupPage />
+  }
+])
+
+
+export default router

@@ -49,4 +49,4 @@ export const AuthUserProvider = ({ children }:AuthUserProviderChildrenType) => {
         return <AuthUserContext.Provider value={auth}>{children}</AuthUserContext.Provider>
 }
 
-export const useAuth = useContext(AuthUserContext)
+//export const useAuth = useContext(AuthUserContext)
